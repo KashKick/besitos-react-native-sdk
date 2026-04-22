@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BesitosExample",
+    "slug": "besitos-example",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "besitosexample",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "io.github.kashkick.besitos.example"
+    },
+    "android": {
+      "package": "io.github.kashkick.besitos.example",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "77be104b-30c6-403c-a623-0da672ec0913"
+      }
+    }
+  }
+}

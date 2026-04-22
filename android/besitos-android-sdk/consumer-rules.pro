@@ -1,0 +1,1 @@
+-keep class io.github.kashkick.besitos.android.sdk.offerwall.** { *; }

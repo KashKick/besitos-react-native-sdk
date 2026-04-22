@@ -1,0 +1,55 @@
+{
+  "name": "besitos-react-native-sdk-offerwall",
+  "version": "1.0.1",
+  "description": "Besitos Offerwall Mobile SDK for React Native and Expo",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "lib",
+    "android",
+    "ios",
+    "*.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "prepublishOnly": "npm run build",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\""
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "android",
+    "besitos",
+    "offerwall"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KashKick/besitos-react-native-sdk.git",
+    "directory": "react-native"
+  },
+  "homepage": "https://github.com/KashKick/besitos-react-native-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/KashKick/besitos-react-native-sdk/issues"
+  },
+  "author": "KashKick <shraddha@kashkick.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.73.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

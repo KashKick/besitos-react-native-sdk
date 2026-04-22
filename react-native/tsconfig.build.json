@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "outDir": "lib",
+    "declaration": true,
+    "declarationDir": "lib",
+    "noEmit": false,
+    "jsx": "react-native"
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "lib", "example"]
+}

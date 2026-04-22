@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application>
+        <activity
+            android:name="io.github.kashkick.besitos.android.sdk.offerwall.webview.OfferwallActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:theme="@style/BesitosTheme.Offerwall"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
