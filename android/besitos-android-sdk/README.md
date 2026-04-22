@@ -27,7 +27,30 @@ The SDK manifest already declares:
 
 ## Installation
 
-If you are consuming this folder as a Gradle module, add:
+### Option 1: Maven Central
+
+Ensure `mavenCentral()` is available:
+
+```kotlin
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+```
+
+Then add:
+
+```kotlin
+dependencies {
+    implementation("io.github.kashkick:besitos-android-sdk:1.0.0")
+}
+```
+
+### Option 2: Local Gradle Module
+
+If you are consuming this folder directly as a local module, add:
 
 ```kotlin
 include(":app")

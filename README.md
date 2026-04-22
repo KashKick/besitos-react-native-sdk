@@ -47,6 +47,8 @@ dependencies {
 }
 ```
 
+If you want to consume the Android SDK directly from this repository as a local Gradle module instead, see [android/besitos-android-sdk/README.md](android/besitos-android-sdk/README.md).
+
 ### iOS native SDK
 
 Swift Package Manager:
