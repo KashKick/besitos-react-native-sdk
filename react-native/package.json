@@ -1,6 +1,6 @@
 {
   "name": "besitos-react-native-sdk-offerwall",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Besitos Offerwall Mobile SDK for React Native and Expo",
   "main": "lib/index.js",
   "module": "lib/index.js",
